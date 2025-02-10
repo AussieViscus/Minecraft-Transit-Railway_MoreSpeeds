@@ -43,6 +43,8 @@ public final class Items {
 		LIFT_REFRESHER = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "lift_refresher"), itemSettings -> new Item(new ItemLiftRefresher(itemSettings)), CreativeModeTabs.ESCALATORS_LIFTS);
 
 		// Rail connectors and remover
+		RAIL_CONNECTOR_10 = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_10"), itemSettings -> new Item(new ItemRailModifier(true, false, true, false, RailType.WOODEN1, itemSettings)), CreativeModeTabs.CORE);
+		RAIL_CONNECTOR_10_ONE_WAY = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_10_one_way"), itemSettings -> new Item(new ItemRailModifier(true, false, true, true, RailType.WOODEN1, itemSettings)), CreativeModeTabs.CORE);
 		RAIL_CONNECTOR_20 = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_20"), itemSettings -> new Item(new ItemRailModifier(true, false, true, false, RailType.WOODEN, itemSettings)), CreativeModeTabs.CORE);
 		RAIL_CONNECTOR_20_ONE_WAY = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_20_one_way"), itemSettings -> new Item(new ItemRailModifier(true, false, true, true, RailType.WOODEN, itemSettings)), CreativeModeTabs.CORE);
 		RAIL_CONNECTOR_30 = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_30"), itemSettings -> new Item(new ItemRailModifier(true, false, true, false, RailType.WOODEN2, itemSettings)), CreativeModeTabs.CORE);
