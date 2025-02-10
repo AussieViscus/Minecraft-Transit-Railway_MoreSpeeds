@@ -5,7 +5,7 @@ import org.mtr.mapping.holder.MapColor;
 
 public enum RailType implements IGui {
 	WOODEN(20, MapColor.getOakTanMapped(), false, true, true, Rail.Shape.QUADRATIC),
-	WOODEN1(25, MapColor.getBrownMapped(), false, true, true, Rail.Shape.QUADRATIC),
+	WOODEN1(25, MapColor.getOakTanMapped(), false, true, true, Rail.Shape.QUADRATIC),
 	WOODEN2(30, MapColor.getLightBlueMapped(), false, true, true, Rail.Shape.QUADRATIC),
 	STONE(40, MapColor.getStoneGrayMapped(), false, true, true, Rail.Shape.QUADRATIC),
 	STONE2(50, MapColor.getGreenMapped(), false, true, true, Rail.Shape.QUADRATIC),
