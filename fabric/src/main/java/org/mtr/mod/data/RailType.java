@@ -11,7 +11,6 @@ public enum RailType implements IGui {
 	STONE2(50, MapColor.getGreenMapped(), false, true, true, Rail.Shape.QUADRATIC),
 	EMERALD(60, MapColor.getEmeraldGreenMapped(), false, true, true, Rail.Shape.QUADRATIC),
 	IRON(80, MapColor.getIronGrayMapped(), false, true, true, Rail.Shape.QUADRATIC),
-	SMELTEDIRON(90, MapColor.getLightGrayMapped(), false, true, true, Rail.Shape.QUADRATIC),
 	SOLIDIRON(100, MapColor.getDiamondBlueMapped(), false, true, true, Rail.Shape.QUADRATIC),
 	SLOWOBSIDIAN(110, MapColor.getBlackMapped(), false, true, true, Rail.Shape.QUADRATIC),
 	OBSIDIAN(120, MapColor.getPurpleMapped(), false, true, true, Rail.Shape.QUADRATIC),
