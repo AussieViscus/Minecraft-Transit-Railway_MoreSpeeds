@@ -55,6 +55,8 @@ public final class Items {
 		RAIL_CONNECTOR_50_ONE_WAY = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_50_one_way"), itemSettings -> new Item(new ItemRailModifier(true, false, true, true, RailType.STONE2, itemSettings)), CreativeModeTabs.CORE);
 		RAIL_CONNECTOR_60 = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_60"), itemSettings -> new Item(new ItemRailModifier(true, false, true, false, RailType.EMERALD, itemSettings)), CreativeModeTabs.CORE);
 		RAIL_CONNECTOR_60_ONE_WAY = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_60_one_way"), itemSettings -> new Item(new ItemRailModifier(true, false, true, true, RailType.EMERALD, itemSettings)), CreativeModeTabs.CORE);
+		RAIL_CONNECTOR_70 = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_70"), itemSettings -> new Item(new ItemRailModifier(true, false, true, false, RailType.EMERALD2, itemSettings)), CreativeModeTabs.CORE);
+		RAIL_CONNECTOR_70_ONE_WAY = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_70_one_way"), itemSettings -> new Item(new ItemRailModifier(true, false, true, true, RailType.EMERALD2, itemSettings)), CreativeModeTabs.CORE);
 		RAIL_CONNECTOR_80 = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_80"), itemSettings -> new Item(new ItemRailModifier(true, false, true, false, RailType.IRON, itemSettings)), CreativeModeTabs.CORE);
 		RAIL_CONNECTOR_80_ONE_WAY = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_80_one_way"), itemSettings -> new Item(new ItemRailModifier(true, false, true, true, RailType.IRON, itemSettings)), CreativeModeTabs.CORE);
 		RAIL_CONNECTOR_90 = Init.REGISTRY.registerItem(new Identifier(Init.MOD_ID, "rail_connector_90"), itemSettings -> new Item(new ItemRailModifier(true, false, true, false, RailType.SMELTEDIRON, itemSettings)), CreativeModeTabs.CORE);
@@ -192,6 +194,8 @@ public final class Items {
 	public static final ItemRegistryObject RAIL_CONNECTOR_50_ONE_WAY;
 	public static final ItemRegistryObject RAIL_CONNECTOR_60;
 	public static final ItemRegistryObject RAIL_CONNECTOR_60_ONE_WAY;
+	public static final ItemRegistryObject RAIL_CONNECTOR_70;
+	public static final ItemRegistryObject RAIL_CONNECTOR_70_ONE_WAY;
 	public static final ItemRegistryObject RAIL_CONNECTOR_80;
 	public static final ItemRegistryObject RAIL_CONNECTOR_80_ONE_WAY;
 	public static final ItemRegistryObject RAIL_CONNECTOR_90;
