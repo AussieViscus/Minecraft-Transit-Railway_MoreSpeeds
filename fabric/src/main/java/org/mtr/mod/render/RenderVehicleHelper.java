@@ -149,6 +149,7 @@ public class RenderVehicleHelper {
 						averageAbsoluteBogiePositionsList.add(
 								ridingVehicleProperties.renderVehicleTransformationHelperAbsolute.transformBackwards(Vector.getAverage(bogiePositions.left(), bogiePositions.right()).add(cameraShake), (vector, pitch) -> vector, Vector::rotateY, Vector::add).add(-playerRelativePositionNew.getXMapped(), -playerRelativePositionNew.getYMapped() - playerYOffset, -playerRelativePositionNew.getZMapped())
 						);
+					});
 					return new VehicleProperties(vehicleProperties.vehicleCar, bogiePositionsList, averageAbsoluteBogiePositionsList, vehicleProperties.renderVehicleTransformationHelperAbsolute, ridingVehicleProperties.renderVehicleTransformationHelperAbsolute, ridingVehicleCarNumberAndOffset.right().right());
 				}).collect(Collectors.toCollection(ObjectArrayList::new));
 			}
